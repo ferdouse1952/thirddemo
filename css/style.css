@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+.navbar{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(165, 42, 42, 0.116);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li a{
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    margin-left: 50px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: brown;
+}
+.hero-content{
+    background-color: rgba(165, 42, 42, 0.116);
+    padding:50px 30px 50px 30px;
+    text-align: center;
+}
+.hero-content h1{
+    padding-bottom: 25px;
+    font-size: 80px;
+}
+.red{
+    color: brown;
+}
+.hero-content p{
+    font-size: 25px;
+    text-align: center;
+    padding:0px 100px 0 100px;
+}
+.img img{
+  width: 100%;
+}
+.img{
+    max-width: 500px;
+    margin: auto;
+    padding-top: 100px;
+}
+.about-us h2{
+    font-size: 40px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.card .col{
+    padding-left: 20px;
+    text-align: center;
+}
+.card .col h3{
+    font-size: 26px;
+}
+.card .col p{
+    font-size: 20px;
+}
+.col-img img{
+   width: 100%;
+   height: 100%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 20px;
+}
+.col-img{
+   max-width: 500px;
+   height: 500px;
+   padding-bottom: 15px;
+}
+.column{
+    display: flex;
+    padding-bottom: 60px;
+}
+.column h4,p{
+    text-align: right;
+}
+.column h4{
+    font-size: 45px;
+    color: brown;
+}
+.column p{
+    font-size: 22px;
+}
+.column h5{
+    font-size: 45px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
